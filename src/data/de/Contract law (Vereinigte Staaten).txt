@@ -1,0 +1,7 @@
+Im Recht der Vereinigten Staaten bezeichnet Contract law ein Rechtsgebiet, das sich mit der Entstehung und den Wirkungen von Verträgen befasst. In den Vereinigten Staaten besteht kein einheitliches Privatrecht, da die Kompetenz hierzu bei den einzelnen Staaten liegt. Dennoch bestehen im contract law große Übereinstimmungen, die im Erbe des englischen common law, der Einführung des Uniform Commercial Code und dem Restatement (Second) of Contracts begründet sind. Zur Entstehung eines Vertrages müssen nach amerikanischem Recht fünf Voraussetzungen erfüllt sein: 
+
+Angebot und Annahme (offer and acceptance)
+Entgelt oder Gegenleistung (consideration)
+Rechtsbindungswille (animus contrahendi)
+Geschäftsfähigkeit (legal capacity)
+(sonst) schriftliche Erstellung (writing).

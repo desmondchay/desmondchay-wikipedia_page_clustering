@@ -1,0 +1,24 @@
+En mathématiques, et plus précisément en algèbre générale, une loi de composition interne 
+  
+    
+      
+        ⋆
+      
+    
+    {\displaystyle \star }
+   sur un ensemble S est dite commutative lorsque, pour tous x et y dans S, 
+
+  
+    
+      
+        x
+        ⋆
+        y
+        =
+        y
+        ⋆
+        x
+      
+    
+    {\displaystyle x\star y=y\star x}
+  .

@@ -1,0 +1,8 @@
+L'Open Music Model, connu sous son abréviation de OMM, est un nouveau modèle économique proposé en 2003 pour l'industrie du disque. Il est basé sur des recherches menées au Massachusetts Institute of Technology en 2002. Le modèle soutient que la seule solution viable à long terme est un système de distribution numérique musical d'abonnement basé sur le partage de fichiers et la libre de gestion des droits numériques.
+Le modèle affirme qu'il y a cinq conditions nécessaires pour qu'un réseau viable de distribution numérique de musiques commerciales émerge  :
+
+Libre partage de fichiers. Être libre de partager des fichiers avec les autres
+Libre fichier de formats. Doivent être distribués dans des formats MP3 ou autre sans restrictions gestion des droits numériques.
+Libre droit d'adhésion. Doit être capable de vous inscrire gratuitement pour recevoir le paiement.
+Libre paiement. Paiement doit être accepté par tous les moyens, y compris les cartes de crédit et des liquidités.
+Libre compétition. Plusieurs systèmes peuvent cohabiter, l'important étant de ne pas avoir de monopole.

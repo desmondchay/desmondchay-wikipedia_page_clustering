@@ -1,0 +1,2 @@
+Dans les pays de common law, le symbole de copyright (©) indique qu'une œuvre est soumise à copyright. Dans les pays de droit civil (tels que la France ou la Belgique), il n'a aucune valeur légale mais est tout de même couramment employé pour indiquer qu'une œuvre est soumise au droit d'auteur.
+Le symbole de copyright (©) peut être écrit sur ordinateur de type PC Windows en tapant la séquence Alt + 0169 ou Alt + 184, sur un PC Linux en tapant AltGr + c ou AltGr + Maj + c, et sur un Mac en tapant alt + c.

@@ -1,0 +1,1 @@
+La notation en indice abstrait est un système de notation présentant des similarités avec la convention de sommation d'Einstein et destinée comme cette dernière à l'écriture du calcul tensoriel.

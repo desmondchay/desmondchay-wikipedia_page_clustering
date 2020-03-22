@@ -1,0 +1,16 @@
+A void contract cannot be enforced by law.  Void contracts are different from voidable contracts, which are contracts that may be nullified. However, when a contract is being written and signed, there is no automatic mechanism available in every situation that can be utilized to detect the validity or enforceability of that contract. Practically, a contract can be declared to be void by a court of law. So the main question is that under what conditions can a contract be deemed as void?
+An agreement to carry out an illegal act is an example of a  void agreement.  For example, a contract between drug dealers and buyers is a void contract simply because the terms of the contract are illegal.  In such a case, neither party can go to court to enforce the contract.  A void agreement is void ab initio, i e from the beginning while a voidable contract can be voidable by one or all of the parties. A voidable contract is not void ab initio, rather, it becomes void later due to some changes in condition. In sum, there is no scope of any discretion on the part of the contracting parties in a void contract. The contracting parties do not have the power to make a void contract enforceable.A contract can also be void due to the impossibility of its performance. For instance, if a contract is formed between two parties A & B but during the performance of the contract the object of the contract becomes impossible to achieve (due to action by someone or something other than the contracting parties), then the contract cannot be enforced in the court of law and is thus void. A void contract can be one in which any of the prerequisites of a valid contract is/are absent for example if there is no contractual capacity, the contract can be deemed as void. In fact, void means that a contract does not exist at all. The law can not enforce any legal obligation to either party especially the disappointed party because they are not entitled to any protective laws as far as contracts are concerned.
+An agreement may be void if any of the following:
+
+Made by incompetent parties (e.g., under the age of consent, incapacitated)
+Has a material bilateral mistake
+Has unlawful consideration (e.g., promise of sex)
+Concerns an unlawful object (e.g., heroin)
+Has no consideration on one side
+Restricts a person from marrying or remarrying
+Restricts trade
+Restricts legal proceedings
+Has material uncertain terms
+Incorporates a wager, gamble, or bet
+Contingent upon the happening of an impossible event
+Requires the performance of impossible acts

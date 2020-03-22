@@ -1,0 +1,3 @@
+Les contrats intelligents (en anglais Smart Contracts) sont des protocoles informatiques qui facilitent, vérifient et exécutent la négociation ou l'exécution d'un contrat, ou qui rendent une clause contractuelle inutile (car rattachée au contrat intelligent). Les contrats intelligents ont généralement une interface utilisateur et émulent la logique des clauses contractuelles. 
+Les partisans des contrats intelligents affirment que de nombreux types de clauses contractuelles peuvent ainsi être partiellement ou totalement auto-exécutées ou exécutées à la validation ou les deux. 
+Les contrats intelligents visent à assurer une sécurité supérieure à la mise en application de la loi sur les contrats et de réduire les coûts de transaction associés à la passation des contrats.

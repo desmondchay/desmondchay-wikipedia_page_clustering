@@ -1,0 +1,5 @@
+Bcl-2 (Abk. für engl. B-cell lymphoma 2) ist ein Protein und der Prototyp der gleichnamigen Proteinfamilie, welche bei der Regulation des programmierten Zelltods (Apoptose) eine Rolle spielen. Einige Mitglieder der Familie fördern die Apoptose, während andere sie verhindern. Es wird vermutet, dass zumindest ein Teil dieser Proteine ihre Funktion dadurch ausüben, dass sie die Freisetzung von Cytochrom c aus dem Mitochondrium regulieren. Dies hat den Zelltod zur Folge. Außerdem sind wahrscheinlich einige dieser Proteine an der Aktivierung der Procaspasen beteiligt.
+Weil die korrekte Einleitung der Apoptose sehr wichtig ist, kann eine Mutation in den Genen dieser Proteine gravierende Folgen haben. Deshalb gilt diese Proteinfamilie auch als menschliches Proto-Onkogen.
+Überaktivierungen führen zur Proliferation des Gewebes und damit zu Tumoren. Das Protein wurde erstmals im B-Zellen-Lymphom (BCL) isoliert.
+
+Inhibitoren der Bcl-2 wie beispielsweise Venetoclax werden in der Therapie von B-Zell-Lymphomen eingesetzt.

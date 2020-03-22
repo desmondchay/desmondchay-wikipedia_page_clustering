@@ -1,0 +1,3 @@
+The doctrine of privity of contract is a common law principle which provides that a contract cannot confer rights or impose obligations upon any person who is not a party to the contract.
+The premise is that only parties to contracts should be able to sue to enforce their rights or claim damages as such. However, the doctrine has proven problematic because of its implications for contracts made for the benefit of third parties who are unable to enforce the obligations of the contracting parties. In England and Wales, the doctrine has been substantially weakened by the Contracts (Rights of Third Parties) Act 1999, which created a statutory exception to privity (enforceable third party rights).
+

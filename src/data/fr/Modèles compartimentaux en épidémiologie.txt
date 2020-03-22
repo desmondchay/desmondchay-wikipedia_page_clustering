@@ -1,0 +1,1 @@
+Les modèles mathématiques de maladies infectieuses, d'abord outils purement théoriques, ont commencé à être mis en pratique avec le problème du SIDA dans les années 1980. Mais depuis la pandémie de grippe espagnole, des modèles compartimentaux sont utilisés pour faciliter les calculs de probabilité de contagion. Ces modèles divisent la population en classes épidémiologiques.
