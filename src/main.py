@@ -1,38 +1,37 @@
 import os
-os.chdir(r'C:\Users\desmond\Desktop\dchay\src')
-ROOT=os.getcwd()
-import config as cfg
-import subprograms.scrapper as scrapper
-import subprograms.language_detection as language_detection
-import subprograms.tfidf_sklearn as cluster_model
 
-languages,search_term,num_results=cfg.scrapper['languages'],cfg.scrapper['search_term'],cfg.scrapper['num_results']
-os.chdir(os.path.join(ROOT,'data'))
+import subprograms.config as cfg
+from subprograms.scraper import scraper
+from subprograms.language_detection import language_detector
+from subprograms.cluster import DocCluster
 
-#Modules to get data and sort to subfolders by document language
-# scrapper.make_corpus(languages,search_term,num_results) 
-language_detection.sort_by_language()
+def main():
+    # Performs scraping. Comment out to disable
+    languages, search_term, num_results = cfg.params['languages'], cfg.params['search_term'], cfg.params['num_results']
+    # scraper()
 
+    ROOT = os.getcwd()
+    os.chdir(os.path.join(ROOT, 'files'))
 
-os.chdir(os.path.join(ROOT,'data','en'))
-curr_dir=os.getcwd()
-file_names,corpus=cluster_model.read_txt(curr_dir)
-X_Norm,vectorizer=cluster_model.tfidf_vectorize(corpus)
+    # Detect language and sort to subfolders by document language
+    language_detector()
 
-# To determine optimal number of clusters via visual inspection
-# from matplotlib import pyplot as plt
-# distorsions=cluster_model.find_optimal_cluster(X_Norm,10)
-# fig = plt.figure(figsize=(15, 5))
-# plt.plot(range(2, 10), distorsions)
-# plt.grid(True)
-# plt.title('Elbow curve')
+    # Initializes class 
+    cluster_model = DocCluster(language='en',max_cluster_size=20)
 
-num_clusters=5
-results=cluster_model.get_clusters(num_clusters,X_Norm,vectorizer,file_names)
+    # Reads in input files to obtain a list of strings, then apply text pre-processing feature vectorization
+    feature_vector=cluster_model.get_feature_vector(method='sent_bert')
 
-results.count()
-results[results['Cluster']==0].head()
-results[results['Cluster']==1].head()
-results[results['Cluster']==2].head()
-results[results['Cluster']==3].head()
-results[results['Cluster']==4].head()
+    # Cluster documents into logical groups by using cluster size with highest average silhouette score as optimal. KMeans is used.
+    num_clusters=cluster_model.find_optimal_cluster(feature_vector)
+    file_names = cluster_model.get_file_names()
+    results_df,model_labels = cluster_model.get_clusters(feature_vector,num_clusters,file_names)
+
+    cluster_model.visualize_clusters(num_clusters,feature_vector,model_labels)
+    print("Number of documents analysed:",results_df.count()[1])
+    
+    for cluster in results_df['Cluster'].unique():
+        print(results_df[results_df['Cluster']==cluster].head())
+
+if __name__ == "__main__":
+    main()

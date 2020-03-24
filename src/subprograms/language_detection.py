@@ -2,9 +2,11 @@ import spacy
 from spacy_langdetect import LanguageDetector
 import os
 
-def sort_by_language():
-    """Sort .txt files by document average language, implemented using spacy"""
-    curr_dir=os.getcwd()
+def language_detector():
+    """
+    Sort .txt files by document average language, implemented using SpaCy
+    """
+    curr_dir = os.getcwd()
     nlp = spacy.load("en_core_web_sm")
     nlp.add_pipe(LanguageDetector(), name='language_detector', last=True)
 
@@ -15,10 +17,13 @@ def sort_by_language():
             f.close()
             doc = nlp(text)
             lang=doc._.language['language']
-            if not os.path.exists(os.path.join(curr_dir,lang)):
+            if not os.path.exists(os.path.join(curr_dir, lang)):
                 os.makedirs(os.path.join(curr_dir,lang))
             else:
-                print("Moving",filename,'to',lang)
-                os.replace(os.path.join(curr_dir,filename), os.path.join(curr_dir,lang,filename))
+                print(f"Moving {filename} to {lang}")
+                os.replace(os.path.join(curr_dir, filename), os.path.join(curr_dir, lang, filename))
         else:
             continue
+
+if __name__ == "__main__":
+    language_detector()
