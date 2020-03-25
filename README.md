@@ -164,7 +164,11 @@ A total of 265 different english documents were used in the clustering. With the
 |  Civil engineering.txt                |         5 |
 |  Copyright law of the Philippines.txt |         5 |
 
-We can briefly summarize the nature of each cluster by inspection, based on the sample of documents in each cluster. The clusters can be separated based on the gist of the content given by their file name. Clusters can be termed as property law cluster, civil law cluster, international law cluster, cluster contract law cluster and lastly, criminal law cluster. By manual inspection, tf-idf seem to give the most promising results, as it produces clusters with majority of its documents related to each other.
+We can briefly summarize the nature of each cluster by inspection, based on the sample of documents in each cluster. The clusters can be separated based on the gist of the content given by their file name. Clusters can be termed as property law cluster, civil law cluster, international law cluster, cluster contract law cluster and lastly, criminal law cluster. 
+
+By manual inspection, tf-idf seem to give the most promising results, as it produces clusters with majority of its documents related to each other. Cluster 0 for tf-idf refers to contract law documents, Cluster 1 on property law, Cluster 2 contains a mixture of documents that do not primarily fall into any main group, Cluster 3 on international law and finally Cluster 4 on criminal law. A brief examination of the first few clusters in each cluster presents that clusters are well formed.
+
+For documents where BERT feature vectorization is applied, the clusters formed seem very different from the clusters formed by tf-idf. Each cluster has a mixture of different documents belonging to general law specialy, other than cluster 5, where the documents seem to be generally of the property law nature. This may be because the BERT feature vectorization used is pre-trained on wikipedia sections instead of whole documents, which may affect the difference in subtleties of semantics of one over the other. Furthermore, the BERT model has not been trained on such documents, which may be the reason why by visual inspection, tf-idf seem to perform better in this clustering task. 
 
 While the results may be promising, it is advisable to refine the analysis through a comprehensive literature review of the effectiveness of different document embedding techniques, like word2vec, or even topic modelling algorithms like LDA. Dimensionality reduction can also be achieved using LSA.
 
