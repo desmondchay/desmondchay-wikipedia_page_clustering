@@ -4,7 +4,9 @@ import os
 
 def language_detector():
     """
-    Sort .txt files by document average language, implemented using SpaCy
+    Sort .txt files by document average language, by moving them into respective subfolders, implemented using SpaCy.
+    Subfolders with the language as the name of the folders are created for every unseen language.
+    Supports multiple languages. 
     """
     curr_dir = os.getcwd()
     nlp = spacy.load("en_core_web_sm")

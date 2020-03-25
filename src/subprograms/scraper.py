@@ -1,14 +1,15 @@
 import wikipedia
 import sys
 import os
-
 from subprograms.config import params
 
 
 def scraper():
     """
     Extract wikipedia page summary and convert it to .txt files.
-    - config.py contains search terms, number of results & languages that can be altered.
+    Uses wikipedia python wrapper for WikiMedia API. Rate limit can be configured via the wikipedia library methods.
+    Saves files into files subfolder.
+    config.py contains search terms, number of results & languages that can be altered.
     """
     languages, search_term, num_results = params['languages'], params['search_term'], params['num_results']
 
